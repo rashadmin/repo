@@ -1,0 +1,13 @@
+
+{%extends 'base.html'%}
+{%block content%}   
+  <div class="container">
+   <h1>Thank you for Subscribing</h1>
+   <ol>
+   {%for subscriber in subscribers%}
+  <li> {{subscriber}}</li>
+   {%endfor%}
+</ol>
+   <br/>
+ </div>
+{%endblock%}
